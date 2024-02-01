@@ -1,0 +1,32 @@
+body{
+    /* background-color: black; */
+}
+#ourservices{
+    flex-direction: column;
+}
+#home::before{
+    right: 0;
+    width: 100%;
+}
+#logo img{
+    height: 31px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    top: 3px;
+    position: absolute;
+}
+
+#navbar  {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul li a{
+    height: 2px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
